@@ -16,7 +16,9 @@ namespace MyBehaviorsSample.iOS
 
 			LoadApplication(new App());
 
-			return base.FinishedLaunching(app, options);
+		    //Initializer.Init();
+
+		    return base.FinishedLaunching(app, options);
 		}
 	}
 }

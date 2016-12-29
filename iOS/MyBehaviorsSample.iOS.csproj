@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -103,6 +103,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MyBehaviorsLib\MyBehaviorsLib.csproj">
+      <Project>{38CC70FE-CAF5-4F73-A5C1-59D8ED61BBC9}</Project>
+      <Name>MyBehaviorsLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyBehaviorsSample\MyBehaviorsSample.csproj">
       <Project>{630D3320-2FEA-4C83-9664-9E4C86DD0FF4}</Project>
       <Name>MyBehaviorsSample</Name>

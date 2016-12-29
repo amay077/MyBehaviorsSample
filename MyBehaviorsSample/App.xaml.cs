@@ -6,8 +6,9 @@ namespace MyBehaviorsSample
 	{
 		public App()
 		{
+			//MyBehaviorsLib.Initializer.Init();
+			
 			InitializeComponent();
-
 			MainPage = new MyBehaviorsSamplePage();
 		}
 
